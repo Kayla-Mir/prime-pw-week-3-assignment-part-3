@@ -1,1 +1,11 @@
-/* give your assignment a fun background color */
+ /* give your assignment a fun background color */
+ body {
+   background: #000;
+   height: 100vh;
+   margin: 10;
+   display: grid;
+   background: radial-gradient(
+     circle at center,
+     white, pink
+   )
+ }
